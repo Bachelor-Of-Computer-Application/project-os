@@ -4,13 +4,14 @@ typedef struct{
 	int id;
 	char name[30];
 	float fine;
-} student;
+}student;
 
 int main(){
 	student s[5];
+
 	int i,n;
 	printf("Enter number of students:");
-	scanf("%d",&n);
+	scanf("%d",&n); 
 	//Input
 	for(i=0;i<n;i++){
 		printf("\nstudent %d\n",i+1);
@@ -31,4 +32,20 @@ int main(){
 	}
 	return 0;
 }
+
+
+
+
+int roll, days;
+float fine;
+printf (" Enter Roll number:");
+scanf("%d",&roll);
+printf( " Enter Late Days: ");
+Scanf("%d, &days");
+fine = days * 5;  // Rs.5 fine per day
+printf("\nRoll Number: %d", roll);
+printf(" \nLate Days:%d", days);
+printf("\nTotal Fine: Rs.%.2f",fine);
+return 0;
+} 
 
