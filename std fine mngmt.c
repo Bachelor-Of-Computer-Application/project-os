@@ -122,16 +122,5 @@ int main(){
 
 
 
-int roll, days;
-float fine;
-printf (" Enter Roll number:");
-scanf("%d",&roll);
-printf( " Enter Late Days: ");
-Scanf("%d, &days");
-fine = days * 5;  // Rs.5 fine per day
-printf("\nRoll Number: %d", roll);
-printf(" \nLate Days:%d", days);
-printf("\nTotal Fine: Rs.%.2f",fine);
-return 0;
-} 
+
 
