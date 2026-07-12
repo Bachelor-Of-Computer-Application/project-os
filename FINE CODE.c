@@ -16,7 +16,7 @@ void title() {
     printf("\n====================================================");
     printf("\n              MINI PROJECT IN C");
     printf("\n----------------------------------------------------");
-    printf("\n Developed By : Astha GC");
+    printf("\n Developed By : Aastha and shital");
     printf("\n Purpose      : Manage Student Fine Records");
     printf("\n====================================================\n");
 }
